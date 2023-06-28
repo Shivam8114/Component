@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="con_man_tool.css">
+</head>
+<body>
+  <h1>Content Management Tool</h1>
+
+  <div id="editor-container">
+    <div id="sidebar">
+      <h2>Elements</h2>
+      <div class="draggable" data-element-type="text">Text</div>
+      <div class="draggable" data-element-type="image">Image</div>
+      <div class="draggable" data-element-type="video">Video</div>
+      <!-- Add more draggable elements as needed -->
+    </div>
+    <div id="canvas">
+      <h2>Canvas</h2>
+      <div id="canvas-container"></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+  <script src="con_man_tool.js"></script>
+</body>
+</html>
